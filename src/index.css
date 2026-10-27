@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-3xl: 96.063rem; /* 1536px */
+    --breakpoint-2xl: 75.938rem; /* 1215px */
+    --breakpoint-xl: 64.063rem; /* 1025px */
+    --breakpoint-lg: 52.188rem; /* 835px */ 
+    --breakpoint-sd: 40rem; /* 640px */
+    --breakpoint-md: 27rem; /* 432px */
+}
+
+.swiper-pagination-bullet {
+    opacity: 1 !important;
+    border: 1px solid white;
+    background-color: white !important;
+    border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+    border: 1px solid white;
+    opacity: 1 !important;
+    background: transparent !important;
+}
+
+/*  */
